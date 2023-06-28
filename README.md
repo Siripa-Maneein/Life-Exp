@@ -1,8 +1,5 @@
-# Your Application Name
- Life Expectancy
+#  Life Expectancy
 ## Description
-What the application does.  Consider including a screen-shot and a link to your demonstration video.
-
 Here's the demonstration video link: https://youtu.be/ETGjOddCC1c
 
 This application allows the user to visualise life expectancy of people from 197 countries across the world
@@ -56,8 +53,7 @@ the window title and plot will update accordingly.
 
 
 ## Running the Application
-Any dependencies (packages) needed to run your program. How to run it.
-
+Dependencies:
 - python3.9
 
 Packages:
@@ -74,8 +70,6 @@ The program can run by running main.py.
 
  
 ## Design
-Describe the overall design, including a UML class diagram.
-
 There are 3 classes in this application.
 1. DownloadData 
 
@@ -118,19 +112,15 @@ and life_exp_data received from the RankingPage class for processing
 ![](screenshots/uml.png)
 
 ## Design Patterns Used
-Describe any design patterns you used, and how they are used in your application.
-
-composite pattern 
+Composite pattern 
 - put each component in frames and labelframe for the convenience in organizing the code and layout
 - e.g. DetailPlot class is a tkinter frame which has many components in it
 
-observer pattern 
+Observer pattern 
 - use with the function that is called only if an event is happening 
 - e.g. binding update_plots method to 'ComboboxSelected' event.
  
 ## Other Information
-Anything else you would like to include.  Anything you think is important or interesting that you learned.  For example, any interesting libraries or packages you use in your application.
-
 ttkwidgets provides a very interesting AutocompleteCombobox. It allows user to enter a value, and it will
 compare with the complete value provided and show suggestion to the user. It is very handy when searching a value
 from a very long combobox such as in my application a combobox contains 197 countries.
