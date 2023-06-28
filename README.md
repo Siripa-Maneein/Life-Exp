@@ -55,8 +55,6 @@ the window title and plot will update accordingly.
 ## Running the Application
 Dependencies:
 - python3.9
-
-Packages:
 - tkinter
 - io
 - threading
